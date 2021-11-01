@@ -7,7 +7,7 @@ public class NegocioException extends RuntimeException{
 	 * atualizados a todo custo mesmo que estajam em producao então serealisamos a
 	 * classe no caso temos uma aplicacao que preza ao maximo a integridade então
 	 * caso aja versaos diferentes devido ao acrescimo de novos atributos na hora de
-	 * deserializar a instancia ele lançarar uma exception reclamado que a classe
+	 * deserializar a instancia ele lançarar uma exception reclamando que a classe
 	 * possui dados novos e que a instancia deserializzada e uma instancia de versao
 	 * antiga
 	 */
